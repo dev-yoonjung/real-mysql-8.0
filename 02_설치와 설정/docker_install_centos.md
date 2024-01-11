@@ -34,6 +34,8 @@ docker exec -it {CONTAINER_ID} /bin/bash
 
 ### 4.3. 초기 설정
 
+Failed to download metadata for repo 'appstream' 오류가 발생할 경우 이 [방법](./failed_to_download_metadata_for_repo_appstream.md)으로 해결한다  
+
 ```
 # 필수세팅
 yum update
