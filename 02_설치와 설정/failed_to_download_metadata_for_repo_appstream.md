@@ -21,5 +21,5 @@ sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /
 ```
 
 하지만 CentOS 8 버전이 지원 종료되었기 때문에 임시방편에 불과하다. <br/>
-그렇기때문에 CentOS Stream으로 업그레이드해야 한다. ([방법](to_centos_stream_from_centos8.md))
+그렇기때문에 CentOS Stream으로 업그레이드해야 한다. ([방법](./to_centos_stream_from_centos8.md))
 
