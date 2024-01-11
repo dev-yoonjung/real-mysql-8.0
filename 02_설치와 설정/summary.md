@@ -27,4 +27,4 @@
 
 ### 2.1.2. MySQL 설치
 
-> [[Docker] CentOS 설치](/02_설치와%20설정/docker_install_centos8.md)
+> [[Docker] CentOS 설치](/02_설치와%20설정/docker_install_centos.md)
