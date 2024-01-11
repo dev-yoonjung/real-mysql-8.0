@@ -15,7 +15,7 @@ docker image list
 ## 3. CentOS image 실행
 
 ```
-docker run -d -it --name centos centos:8
+docker run -d -it --privileged=true --name centos centos:8
 ```
 
 ## 4. CentOS 초기설정
