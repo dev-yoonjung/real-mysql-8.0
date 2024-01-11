@@ -17,7 +17,7 @@ Mirror Site를 **vault**로 전환해야 해결된다.
 
 ```
 sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-*
-sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos
+sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-*
 ```
 
 하지만 CentOS 8 버전이 지원 종료되었기 때문에 임시방편에 불과하다. <br/>
