@@ -16,10 +16,34 @@ dnf distro-sync -y --allowerasing
 
 ## 3. 재부팅 후 설치된 버전 확인
 
-```
-# 재부팅
-reboot
+### 3.1. 재부팅
 
-# 설치버전 확인
+```
+reboot
+```
+
+### 3.2. Container 재실행
+
+```
+docker start {CONTAINER_NAME}
+```
+
+### 3.3 Container ID 확인
+
+```
+docker ps
+```
+
+### 3.4. shell 환경 재접속
+
+```
+docker exec -it {CONTINAER_ID} /bin/bash
+```
+
+### 3.5. 설치된 버전 확인
+
+```
 cat /etc/centos-release
 ```
+
+<img width="332" alt="스크린샷 2024-01-13 오후 1 04 45" src="https://github.com/dev-yoonjung/real-mysql-8.0/assets/98807166/35a4be77-10d7-4e45-b0da-ccc10af84989">
